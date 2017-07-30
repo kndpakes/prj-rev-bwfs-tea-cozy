@@ -1,0 +1,164 @@
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 22px;
+    text-align: center;
+}	
+
+#header {
+	display: flex;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	width: 1200px;
+	background-color: black;
+	z-index: 1;
+	align-items: center;
+	position: fixed;
+}
+		
+#logo img {
+	height: 50px;
+	padding-left: 10px;
+	}		
+		
+.nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 22px;
+	padding-right: 20px;
+	font-family: Helvetica;
+}	
+
+a {
+	color: seashell;
+	text-decoration: underline;
+}
+	
+#banner {
+	align-items: center;
+	text-align: center;
+	background-image: url("../images/tealoose.jpg");
+	background-color: black;
+	width: 1200px;
+	height: 700px;
+	padding-top: 70px;
+	align-content: center;
+	display: flex;
+}	
+
+.mission {
+	background-color: black;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+}
+
+#banner img {
+	align-items: center;
+	height: 700px;
+}
+
+h2, h3, h4 {
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+.teaofthemonth {
+	display: block;
+	width: 1200px;
+	margin-top: 80px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1000px;
+    justify-content: center;
+	padding-left:100px;
+	padding-bottom: 75px;
+}
+
+.tea img {
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+	display: block;
+}
+
+.locations {
+	display: block;
+	background-image: url("../images/teacuptable.jpg");
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	width: 1200px;
+	height: 500px;
+	padding-top: 20px;
+}
+
+.locations img {
+	height: 500px;
+	width: 1200px;
+}
+
+.locations h2 {
+	background-color: transparent;
+	position: relative;
+	bottom: -15px;
+}
+
+.teastores {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	opacity: 1;
+	width: 1200px;
+	height: 300px;
+	margin-bottom: 100px;
+}
+
+.store {
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 1;
+}
+	
+#footer {
+		background-color: black;
+		text-align: center:
+		justify-content: center;
+		width: 1200px;
+		display: block;
+}
+	
+.contact {
+	color: seashell;
+	height: 200px;
+}	
+
+.copyright {
+	text-align: left;
+	padding-left: 20px;
+}
